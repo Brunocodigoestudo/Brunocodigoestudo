@@ -11,4 +11,10 @@
 
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Brunocodigoestudo&bg_color=000000&color=8080ff&line=0080c0&point=00ffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&labelColor=0D1117)&nbsp;
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=power-bi&labelColor=0D1117)&nbsp;
+
+
+
 
