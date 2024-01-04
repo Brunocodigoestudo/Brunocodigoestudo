@@ -15,6 +15,12 @@
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=mysql&labelColor=0D1117)&nbsp;
 ![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=for-the-badge&logo=power-bi&labelColor=0D1117)&nbsp;
 
+<div align="center">
+<br><p align="centre"><b>Visitors Count</b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{Brunocodigoestudo}/count.svg" /></p> 
+<br>
+</div>
+
 
 
 
