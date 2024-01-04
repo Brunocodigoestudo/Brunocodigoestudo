@@ -9,6 +9,6 @@
   <img width="41%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brunocodigoestudo&layout=compact&hide_border=true&title_color=3498db&text_color=3498db&bg_color=0d1117" />
 </div>
 
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Brunocodigoestudo&bg_color=000000&color=8080ff&line=0080c0&point=402b53&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Brunocodigoestudo&bg_color=000000&color=8080ff&line=0080c0&point=00ffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 
