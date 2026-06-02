@@ -1,23 +1,81 @@
 <div align="center">
 
-<!-- SVG header inline — sem dependência externa -->
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 130">
+<!-- HEADER TECNOLÓGICO — SVG inline com grid, circuitos e gradiente -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 180">
   <defs>
-    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0d18"/>
-      <stop offset="60%" style="stop-color:#1a1640"/>
-      <stop offset="100%" style="stop-color:#7c6fcd"/>
+      <stop offset="100%" style="stop-color:#12162e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c6fcd;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#a99fe8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#7c6fcd;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f5f4ff"/>
+      <stop offset="100%" style="stop-color:#a99fe8"/>
     </linearGradient>
   </defs>
-  <rect width="900" height="130" fill="url(#hg)"/>
-  <path d="M0,90 Q225,40 450,80 T900,60 L900,130 L0,130 Z" fill="rgba(124,111,205,0.25)"/>
-  <text x="450" y="62" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#f5f4ff" text-anchor="middle">Bruno Corr&#234;a</text>
-  <text x="450" y="92" font-family="Arial,sans-serif" font-size="15" fill="#a99fe8" text-anchor="middle">Data &#38; AI Specialist</text>
+
+  <!-- Background -->
+  <rect width="900" height="180" fill="url(#bg)"/>
+
+  <!-- Dot grid -->
+  <g fill="#a99fe8" opacity="0.12">
+    <rect x="40"  y="20" width="2" height="2" rx="1"/><rect x="80"  y="20" width="2" height="2" rx="1"/><rect x="120" y="20" width="2" height="2" rx="1"/><rect x="160" y="20" width="2" height="2" rx="1"/><rect x="200" y="20" width="2" height="2" rx="1"/><rect x="240" y="20" width="2" height="2" rx="1"/><rect x="280" y="20" width="2" height="2" rx="1"/><rect x="320" y="20" width="2" height="2" rx="1"/><rect x="360" y="20" width="2" height="2" rx="1"/><rect x="400" y="20" width="2" height="2" rx="1"/><rect x="440" y="20" width="2" height="2" rx="1"/><rect x="480" y="20" width="2" height="2" rx="1"/><rect x="520" y="20" width="2" height="2" rx="1"/><rect x="560" y="20" width="2" height="2" rx="1"/><rect x="600" y="20" width="2" height="2" rx="1"/><rect x="640" y="20" width="2" height="2" rx="1"/><rect x="680" y="20" width="2" height="2" rx="1"/><rect x="720" y="20" width="2" height="2" rx="1"/><rect x="760" y="20" width="2" height="2" rx="1"/><rect x="800" y="20" width="2" height="2" rx="1"/><rect x="840" y="20" width="2" height="2" rx="1"/>
+    <rect x="40"  y="55" width="2" height="2" rx="1"/><rect x="80"  y="55" width="2" height="2" rx="1"/><rect x="120" y="55" width="2" height="2" rx="1"/><rect x="160" y="55" width="2" height="2" rx="1"/><rect x="200" y="55" width="2" height="2" rx="1"/><rect x="240" y="55" width="2" height="2" rx="1"/><rect x="280" y="55" width="2" height="2" rx="1"/><rect x="320" y="55" width="2" height="2" rx="1"/><rect x="360" y="55" width="2" height="2" rx="1"/><rect x="400" y="55" width="2" height="2" rx="1"/><rect x="440" y="55" width="2" height="2" rx="1"/><rect x="480" y="55" width="2" height="2" rx="1"/><rect x="520" y="55" width="2" height="2" rx="1"/><rect x="560" y="55" width="2" height="2" rx="1"/><rect x="600" y="55" width="2" height="2" rx="1"/><rect x="640" y="55" width="2" height="2" rx="1"/><rect x="680" y="55" width="2" height="2" rx="1"/><rect x="720" y="55" width="2" height="2" rx="1"/><rect x="760" y="55" width="2" height="2" rx="1"/><rect x="800" y="55" width="2" height="2" rx="1"/><rect x="840" y="55" width="2" height="2" rx="1"/>
+    <rect x="40"  y="90" width="2" height="2" rx="1"/><rect x="80"  y="90" width="2" height="2" rx="1"/><rect x="120" y="90" width="2" height="2" rx="1"/><rect x="160" y="90" width="2" height="2" rx="1"/><rect x="200" y="90" width="2" height="2" rx="1"/><rect x="240" y="90" width="2" height="2" rx="1"/><rect x="280" y="90" width="2" height="2" rx="1"/><rect x="640" y="90" width="2" height="2" rx="1"/><rect x="680" y="90" width="2" height="2" rx="1"/><rect x="720" y="90" width="2" height="2" rx="1"/><rect x="760" y="90" width="2" height="2" rx="1"/><rect x="800" y="90" width="2" height="2" rx="1"/><rect x="840" y="90" width="2" height="2" rx="1"/>
+    <rect x="40"  y="125" width="2" height="2" rx="1"/><rect x="80"  y="125" width="2" height="2" rx="1"/><rect x="120" y="125" width="2" height="2" rx="1"/><rect x="160" y="125" width="2" height="2" rx="1"/><rect x="640" y="125" width="2" height="2" rx="1"/><rect x="680" y="125" width="2" height="2" rx="1"/><rect x="720" y="125" width="2" height="2" rx="1"/><rect x="760" y="125" width="2" height="2" rx="1"/><rect x="800" y="125" width="2" height="2" rx="1"/><rect x="840" y="125" width="2" height="2" rx="1"/>
+    <rect x="40"  y="160" width="2" height="2" rx="1"/><rect x="80"  y="160" width="2" height="2" rx="1"/><rect x="720" y="160" width="2" height="2" rx="1"/><rect x="760" y="160" width="2" height="2" rx="1"/><rect x="800" y="160" width="2" height="2" rx="1"/><rect x="840" y="160" width="2" height="2" rx="1"/>
+  </g>
+
+  <!-- Circuit lines left -->
+  <g stroke="#7c6fcd" stroke-width="1" fill="none" opacity="0.35">
+    <polyline points="0,45 60,45 60,70 100,70"/>
+    <polyline points="0,100 40,100 40,130 80,130 80,115 130,115"/>
+    <circle cx="60" cy="70" r="3" fill="#7c6fcd" opacity="0.6"/>
+    <circle cx="80" cy="130" r="3" fill="#7c6fcd" opacity="0.6"/>
+    <polyline points="0,155 30,155 30,140 70,140"/>
+  </g>
+
+  <!-- Circuit lines right -->
+  <g stroke="#7c6fcd" stroke-width="1" fill="none" opacity="0.35">
+    <polyline points="900,45 840,45 840,70 800,70"/>
+    <polyline points="900,100 860,100 860,130 820,130 820,115 770,115"/>
+    <circle cx="840" cy="70" r="3" fill="#7c6fcd" opacity="0.6"/>
+    <circle cx="820" cy="130" r="3" fill="#7c6fcd" opacity="0.6"/>
+    <polyline points="900,155 870,155 870,140 830,140"/>
+  </g>
+
+  <!-- Hexagon badge left -->
+  <polygon points="185,90 198,83 211,90 211,104 198,111 185,104" fill="none" stroke="#7c6fcd" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="190,90 198,86 206,90 206,98 198,102 190,98" fill="#7c6fcd" opacity="0.15"/>
+
+  <!-- Hexagon badge right -->
+  <polygon points="689,90 702,83 715,90 715,104 702,111 689,104" fill="none" stroke="#7c6fcd" stroke-width="1.5" opacity="0.5"/>
+  <polygon points="694,90 702,86 710,90 710,98 702,102 694,98" fill="#7c6fcd" opacity="0.15"/>
+
+  <!-- Glow line -->
+  <rect x="200" y="148" width="500" height="1.5" fill="url(#glow)" opacity="0.8"/>
+
+  <!-- BC monogram -->
+  <text x="450" y="82" font-family="Arial Black,Arial,sans-serif" font-size="13" font-weight="900" fill="#a99fe8" text-anchor="middle" opacity="0.6" letter-spacing="6">&#66;&#67;</text>
+
+  <!-- Main name -->
+  <text x="450" y="115" font-family="Arial Black,Arial,sans-serif" font-size="36" font-weight="900" fill="url(#txt)" text-anchor="middle" letter-spacing="2">Bruno Corr&#234;a</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="140" font-family="Courier New,monospace" font-size="13" fill="#a99fe8" text-anchor="middle" opacity="0.85" letter-spacing="3">&gt; Data &#38; AI Specialist _ Hospital Einstein</text>
+
+  <!-- Corner brackets -->
+  <g stroke="#a99fe8" stroke-width="1.5" fill="none" opacity="0.4">
+    <polyline points="18,10 10,10 10,22"/>
+    <polyline points="882,10 890,10 890,22"/>
+    <polyline points="18,170 10,170 10,158"/>
+    <polyline points="882,170 890,170 890,158"/>
+  </g>
 </svg>
-
-<br/>
-
-**`Dados & IA`** &nbsp;·&nbsp; **`Hospital Einstein`** &nbsp;·&nbsp; **`MBA FIAP`** &nbsp;·&nbsp; **`Polindo Diamantes 💎`**
 
 </div>
 
@@ -89,14 +147,21 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 
 <div align="center">
 
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 60">
+<!-- FOOTER SVG inline -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 50">
   <defs>
     <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#7c6fcd"/>
-      <stop offset="100%" style="stop-color:#0a0d18"/>
+      <stop offset="0%" style="stop-color:#0a0d18"/>
+      <stop offset="40%" style="stop-color:#1a1640"/>
+      <stop offset="100%" style="stop-color:#7c6fcd"/>
     </linearGradient>
   </defs>
-  <path d="M0,0 Q225,50 450,20 T900,30 L900,60 L0,60 Z" fill="url(#fg)"/>
+  <rect width="900" height="50" fill="url(#fg)"/>
+  <path d="M0,0 Q300,40 600,15 T900,25 L900,50 L0,50 Z" fill="rgba(124,111,205,0.2)"/>
+  <g stroke="#a99fe8" stroke-width="1" fill="none" opacity="0.3">
+    <polyline points="10,10 10,18 22,18"/>
+    <polyline points="890,10 890,18 878,18"/>
+  </g>
 </svg>
 
 </div>
