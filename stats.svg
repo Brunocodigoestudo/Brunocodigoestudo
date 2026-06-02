@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="160" viewBox="0 0 900 160">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1020"/>
+      <stop offset="100%" stop-color="#12162e"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c6fcd"/>
+      <stop offset="100%" stop-color="#a99fe8"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5a4fad"/>
+      <stop offset="100%" stop-color="#7c6fcd"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a2f8d"/>
+      <stop offset="100%" stop-color="#5a4fad"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="160" rx="12" fill="url(#bg)"/>
+  <rect width="900" height="160" rx="12" fill="none" stroke="#7c6fcd" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- LEFT PANEL: KPI cards -->
+  <!-- Repos -->
+  <rect x="28" y="24" width="110" height="52" rx="8" fill="#0a0d18" stroke="#7c6fcd" stroke-width="0.8" opacity="0.8"/>
+  <text x="83" y="45" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900" fill="#a99fe8" text-anchor="middle">14</text>
+  <text x="83" y="65" font-family="Arial,sans-serif" font-size="10" fill="#6b6f8a" text-anchor="middle" letter-spacing="1">REPOS</text>
+
+  <!-- Followers -->
+  <rect x="150" y="24" width="110" height="52" rx="8" fill="#0a0d18" stroke="#7c6fcd" stroke-width="0.8" opacity="0.8"/>
+  <text x="205" y="45" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900" fill="#a99fe8" text-anchor="middle">7</text>
+  <text x="205" y="65" font-family="Arial,sans-serif" font-size="10" fill="#6b6f8a" text-anchor="middle" letter-spacing="1">SEGUIDORES</text>
+
+  <!-- Stars -->
+  <rect x="272" y="24" width="110" height="52" rx="8" fill="#0a0d18" stroke="#7c6fcd" stroke-width="0.8" opacity="0.8"/>
+  <text x="327" y="45" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900" fill="#a99fe8" text-anchor="middle">1 &#9733;</text>
+  <text x="327" y="65" font-family="Arial,sans-serif" font-size="10" fill="#6b6f8a" text-anchor="middle" letter-spacing="1">ESTRELAS</text>
+
+  <!-- Divider -->
+  <line x1="420" y1="16" x2="420" y2="144" stroke="#7c6fcd" stroke-width="0.6" opacity="0.25"/>
+
+  <!-- Section titles -->
+  <text x="210" y="106" font-family="Arial,sans-serif" font-size="10" fill="#6b6f8a" text-anchor="middle" letter-spacing="2">ATIVIDADE</text>
+  <text x="660" y="18" font-family="Arial,sans-serif" font-size="10" fill="#6b6f8a" text-anchor="middle" letter-spacing="2">LINGUAGENS</text>
+
+  <!-- Activity dots (commit history simulation) -->
+  <g opacity="0.9">
+    <!-- Row labels -->
+    <text x="30" y="124" font-family="Courier New,monospace" font-size="8" fill="#6b6f8a">Seg</text>
+    <text x="30" y="136" font-family="Courier New,monospace" font-size="8" fill="#6b6f8a">Qua</text>
+
+    <!-- Commit grid 12 weeks x 3 rows — varied opacity for realism -->
+    <g fill="#7c6fcd">
+      <!-- week 1 -->
+      <rect x="55" y="114" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="55" y="124" width="8" height="8" rx="2" opacity="0.7"/>
+      <rect x="55" y="134" width="8" height="8" rx="2" opacity="0.3"/>
+      <!-- week 2 -->
+      <rect x="66" y="114" width="8" height="8" rx="2" opacity="0.4"/>
+      <rect x="66" y="124" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="66" y="134" width="8" height="8" rx="2" opacity="0.9"/>
+      <!-- week 3 -->
+      <rect x="77" y="114" width="8" height="8" rx="2" opacity="0.8"/>
+      <rect x="77" y="124" width="8" height="8" rx="2" opacity="0.4"/>
+      <rect x="77" y="134" width="8" height="8" rx="2" opacity="0.15"/>
+      <!-- week 4 -->
+      <rect x="88" y="114" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="88" y="124" width="8" height="8" rx="2" opacity="0.6"/>
+      <rect x="88" y="134" width="8" height="8" rx="2" opacity="0.4"/>
+      <!-- week 5 -->
+      <rect x="99" y="114" width="8" height="8" rx="2" opacity="0.5"/>
+      <rect x="99" y="124" width="8" height="8" rx="2" opacity="0.9"/>
+      <rect x="99" y="134" width="8" height="8" rx="2" opacity="0.3"/>
+      <!-- week 6 -->
+      <rect x="110" y="114" width="8" height="8" rx="2" opacity="0.3"/>
+      <rect x="110" y="124" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="110" y="134" width="8" height="8" rx="2" opacity="0.7"/>
+      <!-- week 7 -->
+      <rect x="121" y="114" width="8" height="8" rx="2" opacity="0.9"/>
+      <rect x="121" y="124" width="8" height="8" rx="2" opacity="0.4"/>
+      <rect x="121" y="134" width="8" height="8" rx="2" opacity="0.15"/>
+      <!-- week 8 -->
+      <rect x="132" y="114" width="8" height="8" rx="2" opacity="0.4"/>
+      <rect x="132" y="124" width="8" height="8" rx="2" opacity="0.7"/>
+      <rect x="132" y="134" width="8" height="8" rx="2" opacity="0.5"/>
+      <!-- week 9 -->
+      <rect x="143" y="114" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="143" y="124" width="8" height="8" rx="2" opacity="0.3"/>
+      <rect x="143" y="134" width="8" height="8" rx="2" opacity="0.9"/>
+      <!-- week 10 -->
+      <rect x="154" y="114" width="8" height="8" rx="2" opacity="0.6"/>
+      <rect x="154" y="124" width="8" height="8" rx="2" opacity="0.15"/>
+      <rect x="154" y="134" width="8" height="8" rx="2" opacity="0.4"/>
+      <!-- week 11 -->
+      <rect x="165" y="114" width="8" height="8" rx="2" opacity="0.9"/>
+      <rect x="165" y="124" width="8" height="8" rx="2" opacity="0.7"/>
+      <rect x="165" y="134" width="8" height="8" rx="2" opacity="0.3"/>
+      <!-- week 12 -->
+      <rect x="176" y="114" width="8" height="8" rx="2" opacity="0.5"/>
+      <rect x="176" y="124" width="8" height="8" rx="2" opacity="0.9"/>
+      <rect x="176" y="134" width="8" height="8" rx="2" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- RIGHT PANEL: Language bars -->
+  <!-- Python 56% -->
+  <text x="440" y="44" font-family="Arial,sans-serif" font-size="12" fill="#f5f4ff" font-weight="600">Python</text>
+  <text x="870" y="44" font-family="Arial,sans-serif" font-size="11" fill="#a99fe8" text-anchor="end">56%</text>
+  <rect x="440" y="48" width="430" height="8" rx="4" fill="#1a1d32"/>
+  <rect x="440" y="48" width="241" height="8" rx="4" fill="url(#bar1)"/>
+
+  <!-- Jupyter Notebook 33% -->
+  <text x="440" y="80" font-family="Arial,sans-serif" font-size="12" fill="#f5f4ff" font-weight="600">Jupyter Notebook</text>
+  <text x="870" y="80" font-family="Arial,sans-serif" font-size="11" fill="#a99fe8" text-anchor="end">33%</text>
+  <rect x="440" y="84" width="430" height="8" rx="4" fill="#1a1d32"/>
+  <rect x="440" y="84" width="142" height="8" rx="4" fill="url(#bar2)"/>
+
+  <!-- HTML 11% -->
+  <text x="440" y="116" font-family="Arial,sans-serif" font-size="12" fill="#f5f4ff" font-weight="600">HTML</text>
+  <text x="870" y="116" font-family="Arial,sans-serif" font-size="11" fill="#a99fe8" text-anchor="end">11%</text>
+  <rect x="440" y="120" width="430" height="8" rx="4" fill="#1a1d32"/>
+  <rect x="440" y="120" width="47" height="8" rx="4" fill="url(#bar3)"/>
+</svg>
