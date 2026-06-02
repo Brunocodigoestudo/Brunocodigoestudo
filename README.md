@@ -1,8 +1,23 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0d18,7c6fcd&height=140&section=header&text=Bruno%20Corr%C3%AAa&fontColor=f5f4ff&fontSize=38&fontAlignY=55&desc=Data%20%26%20AI%20Specialist&descAlignY=75&descColor=a99fe8"/>
+<!-- SVG header inline — sem dependência externa -->
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 130">
+  <defs>
+    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0a0d18"/>
+      <stop offset="60%" style="stop-color:#1a1640"/>
+      <stop offset="100%" style="stop-color:#7c6fcd"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="130" fill="url(#hg)"/>
+  <path d="M0,90 Q225,40 450,80 T900,60 L900,130 L0,130 Z" fill="rgba(124,111,205,0.25)"/>
+  <text x="450" y="62" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#f5f4ff" text-anchor="middle">Bruno Corr&#234;a</text>
+  <text x="450" y="92" font-family="Arial,sans-serif" font-size="15" fill="#a99fe8" text-anchor="middle">Data &#38; AI Specialist</text>
+</svg>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=a99fe8&size=22&center=true&vCenter=true&width=800&lines=Dados+%26+IA+no+Hospital+Einstein;Analytics+Engineering+%7C+Python+%7C+SQL+%7C+Power+BI;MBA+em+andamento+na+FIAP;Mentor+de+Carreira+%E2%80%94+Polindo+Diamantes;Dom+nao+paga+boleto.+Mas+o+metodo+paga.)](https://git.io/typing-svg)
+<br/>
+
+**`Dados & IA`** &nbsp;·&nbsp; **`Hospital Einstein`** &nbsp;·&nbsp; **`MBA FIAP`** &nbsp;·&nbsp; **`Polindo Diamantes 💎`**
 
 </div>
 
@@ -43,7 +58,7 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| [Histórico Plano de Saúde](https://github.com/Brunocodigoestudo/Historico-Plano-Saude) | Pipeline de dados de saúde com visualização no Looker Studio | Python · BigQuery · Looker Studio |
+| [Histórico Plano de Saúde](https://github.com/Brunocodigoestudo/Historico-Plano-Saude) | Pipeline de dados de saúde com visualização no Looker Studio | Python · BigQuery · Looker |
 | [Acidentes em Rodovias Federais](https://github.com/Brunocodigoestudo/AnalisedeDados-Acidentes-rodovias-federais-Brasil) | Análise exploratória de acidentes no Brasil (2007–2015) | Python · Pandas · Jupyter |
 | [ETL Estruturado](https://github.com/Brunocodigoestudo/estrutura_projeto_ETL) | Framework ETL para arquivos Excel com consolidação automática | Python · Pandas |
 | [Data Warehouse com dbt](https://github.com/Brunocodigoestudo/datawarehouse_dbt) | Transformações em DW de Atenção Básica Municipal | dbt · SQL · Python |
@@ -66,12 +81,22 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 
 [![Site](https://img.shields.io/badge/brunocorreatech.com-0a0d18?style=for-the-badge&logo=googlechrome&logoColor=a99fe8)](https://brunocorreatech.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0d18?style=for-the-badge&logo=linkedin&logoColor=a99fe8)](https://linkedin.com/in/brunocorrea)
-[![Polindo Diamantes](https://img.shields.io/badge/Polindo_Diamantes_%F0%9F%92%8E-0a0d18?style=for-the-badge&logoColor=a99fe8)](https://polindodiamantes.com)
+[![Polindo Diamantes](https://img.shields.io/badge/Polindo_Diamantes-0a0d18?style=for-the-badge&logoColor=a99fe8)](https://polindodiamantes.com)
 
 </div>
 
 ---
 
 <div align="center">
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=7c6fcd,0a0d18&height=100&section=footer"/>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 900 60">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c6fcd"/>
+      <stop offset="100%" style="stop-color:#0a0d18"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0 Q225,50 450,20 T900,30 L900,60 L0,60 Z" fill="url(#fg)"/>
+</svg>
+
 </div>
