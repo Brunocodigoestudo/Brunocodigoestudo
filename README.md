@@ -31,7 +31,7 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 ![Airflow](https://img.shields.io/badge/Airflow-0a0d18?style=for-the-badge&logo=apacheairflow&logoColor=a99fe8)
 ![Docker](https://img.shields.io/badge/Docker-0a0d18?style=for-the-badge&logo=docker&logoColor=a99fe8)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0a0d18?style=for-the-badge&logo=githubactions&logoColor=a99fe8)
-![Inteligência Artificial](https://img.shields.io/badge/Intelig%C3%AAncia_Artificial-0a0d18?style=for-the-badge&logo=openai&logoColor=a99fe8)
+![Inteligência Artificial](https://img.shields.io/badge/IA_Generativa-0a0d18?style=for-the-badge&logo=openai&logoColor=a99fe8)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-0a0d18?style=for-the-badge&logo=scikitlearn&logoColor=a99fe8)
 ![Jupyter](https://img.shields.io/badge/Jupyter-0a0d18?style=for-the-badge&logo=jupyter&logoColor=a99fe8)
 
@@ -54,8 +54,9 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 ## 📊 Estatísticas
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Brunocodigoestudo&show_icons=true&count_private=true&hide_border=true&title_color=7c6fcd&icon_color=a99fe8&text_color=f5f4ff&bg_color=0a0d18&locale=pt-br" />
-  <img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Brunocodigoestudo&layout=compact&hide_border=true&title_color=7c6fcd&text_color=a99fe8&bg_color=0a0d18&locale=pt-br&langs_count=6" />
+
+<img src="https://raw.githubusercontent.com/Brunocodigoestudo/Brunocodigoestudo/main/stats.svg" width="100%" alt="Estatísticas GitHub — Bruno Corrêa"/>
+
 </div>
 
 ---
