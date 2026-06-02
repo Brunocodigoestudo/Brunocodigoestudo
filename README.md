@@ -1,10 +1,8 @@
 <div align="center">
 
-<!-- Header wave in brand colors -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0d18,7c6fcd&height=140&section=header&text=Bruno%20Corrêa&fontColor=f5f4ff&fontSize=38&fontAlignY=55&desc=Data%20%26%20AI%20Specialist&descAlignY=75&descColor=a99fe8"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0a0d18,7c6fcd&height=140&section=header&text=Bruno%20Corr%C3%AAa&fontColor=f5f4ff&fontSize=38&fontAlignY=55&desc=Data%20%26%20AI%20Specialist&descAlignY=75&descColor=a99fe8"/>
 
-<!-- Typing headline -->
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=a99fe8&size=22&center=true&vCenter=true&width=800&lines=Dados+%26+IA+no+Hospital+Einstein+%F0%9F%8F%A5;Analytics+Engineering+%7C+Python+%7C+SQL+%7C+Power+BI;MBA+em+andamento+na+FIAP;Mentor+de+Carreira+%E2%80%94+Polindo+Diamantes+%F0%9F%92%8E;Dom+n%C3%A3o+paga+boleto.+Mas+o+m%C3%A9todo+paga.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=a99fe8&size=22&center=true&vCenter=true&width=800&lines=Dados+%26+IA+no+Hospital+Einstein;Analytics+Engineering+%7C+Python+%7C+SQL+%7C+Power+BI;MBA+em+andamento+na+FIAP;Mentor+de+Carreira+%E2%80%94+Polindo+Diamantes;Dom+nao+paga+boleto.+Mas+o+metodo+paga.)](https://git.io/typing-svg)
 
 </div>
 
@@ -45,11 +43,11 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 
 | Projeto | Descrição | Stack |
 |---------|-----------|-------|
-| [🏥 Histórico Plano de Saúde](https://github.com/Brunocodigoestudo/Historico-Plano-Saude) | Pipeline de dados de saúde com visualização no Looker Studio | Python · BigQuery · Looker Studio |
-| [🚗 Acidentes em Rodovias Federais](https://github.com/Brunocodigoestudo/AnalisedeDados-Acidentes-rodovias-federais-Brasil) | Análise exploratória de acidentes no Brasil (2007–2015) | Python · Pandas · Jupyter |
-| [🏗️ ETL Estruturado](https://github.com/Brunocodigoestudo/estrutura_projeto_ETL) | Framework ETL para arquivos Excel com consolidação automática | Python · Pandas |
-| [🔄 Data Warehouse com dbt](https://github.com/Brunocodigoestudo/datawarehouse_dbt) | Transformações em DW de Atenção Básica Municipal | dbt · SQL · Python |
-| [🎨 BC Social Generator](https://brunocodigoestudo.github.io/bc-social/) | Gerador de assets para LinkedIn e Instagram — marca pessoal BC | HTML5 · Canvas · JS |
+| [Histórico Plano de Saúde](https://github.com/Brunocodigoestudo/Historico-Plano-Saude) | Pipeline de dados de saúde com visualização no Looker Studio | Python · BigQuery · Looker Studio |
+| [Acidentes em Rodovias Federais](https://github.com/Brunocodigoestudo/AnalisedeDados-Acidentes-rodovias-federais-Brasil) | Análise exploratória de acidentes no Brasil (2007–2015) | Python · Pandas · Jupyter |
+| [ETL Estruturado](https://github.com/Brunocodigoestudo/estrutura_projeto_ETL) | Framework ETL para arquivos Excel com consolidação automática | Python · Pandas |
+| [Data Warehouse com dbt](https://github.com/Brunocodigoestudo/datawarehouse_dbt) | Transformações em DW de Atenção Básica Municipal | dbt · SQL · Python |
+| [ETL com GitHub Actions](https://github.com/Brunocodigoestudo/projeto_etl_gitactions) | Pipeline ETL automatizado com CI/CD | Python · GitHub Actions |
 
 ---
 
@@ -68,7 +66,7 @@ Estou finalizando meu **MBA na FIAP** e escrevendo o livro *Dom Não Paga Boleto
 
 [![Site](https://img.shields.io/badge/brunocorreatech.com-0a0d18?style=for-the-badge&logo=googlechrome&logoColor=a99fe8)](https://brunocorreatech.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0d18?style=for-the-badge&logo=linkedin&logoColor=a99fe8)](https://linkedin.com/in/brunocorrea)
-[![Polindo Diamantes](https://img.shields.io/badge/Polindo_Diamantes-0a0d18?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2E5OWZlOCIgZD0iTTEyIDJsMyA3aDdsLTUuNSA0IDIgN0wxMiAxN2wtNi41IDMgMi03TDIgOWg3eiIvPjwvc3ZnPg==&logoColor=a99fe8)](https://polindodiamantes.com)
+[![Polindo Diamantes](https://img.shields.io/badge/Polindo_Diamantes_%F0%9F%92%8E-0a0d18?style=for-the-badge&logoColor=a99fe8)](https://polindodiamantes.com)
 
 </div>
 
