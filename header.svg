@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18"/>
+      <stop offset="100%" stop-color="#12162e"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c6fcd" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a99fe8" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#7c6fcd" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5f4ff"/>
+      <stop offset="100%" stop-color="#a99fe8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="180" fill="url(#bg)"/>
+
+  <!-- Dot grid -->
+  <g fill="#a99fe8" opacity="0.13">
+    <circle cx="40"  cy="20" r="1.2"/><circle cx="80"  cy="20" r="1.2"/><circle cx="120" cy="20" r="1.2"/><circle cx="160" cy="20" r="1.2"/><circle cx="200" cy="20" r="1.2"/><circle cx="240" cy="20" r="1.2"/><circle cx="280" cy="20" r="1.2"/><circle cx="320" cy="20" r="1.2"/><circle cx="360" cy="20" r="1.2"/><circle cx="400" cy="20" r="1.2"/><circle cx="440" cy="20" r="1.2"/><circle cx="480" cy="20" r="1.2"/><circle cx="520" cy="20" r="1.2"/><circle cx="560" cy="20" r="1.2"/><circle cx="600" cy="20" r="1.2"/><circle cx="640" cy="20" r="1.2"/><circle cx="680" cy="20" r="1.2"/><circle cx="720" cy="20" r="1.2"/><circle cx="760" cy="20" r="1.2"/><circle cx="800" cy="20" r="1.2"/><circle cx="840" cy="20" r="1.2"/>
+    <circle cx="40"  cy="55" r="1.2"/><circle cx="80"  cy="55" r="1.2"/><circle cx="120" cy="55" r="1.2"/><circle cx="160" cy="55" r="1.2"/><circle cx="200" cy="55" r="1.2"/><circle cx="240" cy="55" r="1.2"/><circle cx="280" cy="55" r="1.2"/><circle cx="320" cy="55" r="1.2"/><circle cx="360" cy="55" r="1.2"/><circle cx="400" cy="55" r="1.2"/><circle cx="440" cy="55" r="1.2"/><circle cx="480" cy="55" r="1.2"/><circle cx="520" cy="55" r="1.2"/><circle cx="560" cy="55" r="1.2"/><circle cx="600" cy="55" r="1.2"/><circle cx="640" cy="55" r="1.2"/><circle cx="680" cy="55" r="1.2"/><circle cx="720" cy="55" r="1.2"/><circle cx="760" cy="55" r="1.2"/><circle cx="800" cy="55" r="1.2"/><circle cx="840" cy="55" r="1.2"/>
+    <circle cx="40"  cy="90" r="1.2"/><circle cx="80"  cy="90" r="1.2"/><circle cx="120" cy="90" r="1.2"/><circle cx="160" cy="90" r="1.2"/><circle cx="200" cy="90" r="1.2"/><circle cx="240" cy="90" r="1.2"/><circle cx="680" cy="90" r="1.2"/><circle cx="720" cy="90" r="1.2"/><circle cx="760" cy="90" r="1.2"/><circle cx="800" cy="90" r="1.2"/><circle cx="840" cy="90" r="1.2"/>
+    <circle cx="40"  cy="125" r="1.2"/><circle cx="80"  cy="125" r="1.2"/><circle cx="120" cy="125" r="1.2"/><circle cx="680" cy="125" r="1.2"/><circle cx="720" cy="125" r="1.2"/><circle cx="760" cy="125" r="1.2"/><circle cx="800" cy="125" r="1.2"/><circle cx="840" cy="125" r="1.2"/>
+    <circle cx="40"  cy="160" r="1.2"/><circle cx="720" cy="160" r="1.2"/><circle cx="760" cy="160" r="1.2"/><circle cx="800" cy="160" r="1.2"/><circle cx="840" cy="160" r="1.2"/>
+  </g>
+
+  <!-- Circuit lines left -->
+  <g stroke="#7c6fcd" stroke-width="1.2" fill="none" opacity="0.4">
+    <polyline points="0,45 60,45 60,70 105,70"/>
+    <polyline points="0,100 40,100 40,130 85,130 85,115 135,115"/>
+    <polyline points="0,155 35,155 35,140 75,140"/>
+  </g>
+  <g fill="#a99fe8" opacity="0.7">
+    <circle cx="60"  cy="70"  r="2.5"/>
+    <circle cx="85"  cy="130" r="2.5"/>
+    <circle cx="35"  cy="140" r="2.5"/>
+  </g>
+
+  <!-- Circuit lines right -->
+  <g stroke="#7c6fcd" stroke-width="1.2" fill="none" opacity="0.4">
+    <polyline points="900,45 840,45 840,70 795,70"/>
+    <polyline points="900,100 860,100 860,130 815,130 815,115 765,115"/>
+    <polyline points="900,155 865,155 865,140 825,140"/>
+  </g>
+  <g fill="#a99fe8" opacity="0.7">
+    <circle cx="840" cy="70"  r="2.5"/>
+    <circle cx="815" cy="130" r="2.5"/>
+    <circle cx="865" cy="140" r="2.5"/>
+  </g>
+
+  <!-- Hexagon left -->
+  <polygon points="185,90 200,81.7 215,90 215,106 200,114.3 185,106" fill="none" stroke="#7c6fcd" stroke-width="1.5" opacity="0.55"/>
+  <polygon points="191,90 200,85 209,90 209,100 200,105 191,100" fill="#7c6fcd" opacity="0.12"/>
+
+  <!-- Hexagon right -->
+  <polygon points="685,90 700,81.7 715,90 715,106 700,114.3 685,106" fill="none" stroke="#7c6fcd" stroke-width="1.5" opacity="0.55"/>
+  <polygon points="691,90 700,85 709,90 709,100 700,105 691,100" fill="#7c6fcd" opacity="0.12"/>
+
+  <!-- Glow line -->
+  <rect x="180" y="150" width="540" height="1.5" fill="url(#glow)"/>
+
+  <!-- BC monogram -->
+  <text x="450" y="76" font-family="Arial Black,Arial,sans-serif" font-size="12" font-weight="900" fill="#a99fe8" text-anchor="middle" opacity="0.55" letter-spacing="8">BC</text>
+
+  <!-- Main name -->
+  <text x="450" y="116" font-family="Arial Black,Arial,sans-serif" font-size="38" font-weight="900" fill="url(#txt)" text-anchor="middle" letter-spacing="1">Bruno Corr&#234;a</text>
+
+  <!-- Subtitle monospace -->
+  <text x="450" y="141" font-family="Courier New,Courier,monospace" font-size="13" fill="#a99fe8" text-anchor="middle" letter-spacing="2" opacity="0.9">&#62; Data &#38; AI Specialist &#8212; Hospital Einstein</text>
+
+  <!-- Corner brackets -->
+  <g stroke="#a99fe8" stroke-width="1.5" fill="none" opacity="0.45">
+    <polyline points="18,10 10,10 10,22"/>
+    <polyline points="882,10 890,10 890,22"/>
+    <polyline points="18,170 10,170 10,158"/>
+    <polyline points="882,170 890,170 890,158"/>
+  </g>
+</svg>
